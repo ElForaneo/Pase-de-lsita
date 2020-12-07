@@ -1,8 +1,8 @@
-#index urls.py
+#clases urls.py
 
 from django.urls import path
 from .views import *
 
 urlpatterns= [
-    path('',home.as_view(), name="home")
+    path('',home.as_view(), name="clases")
 ]
